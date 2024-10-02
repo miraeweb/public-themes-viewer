@@ -26,11 +26,12 @@
                 paramMap[item.split('=')[0]]=item.split('=')[1];
             })
 
-            let theme =  paramMap.profile ||'saturn-dark';
+            let theme =  paramMap.profile ||'saturn-light';
 
             switch(theme){
                 case 'neptune':
                 case 'saturn-dark':
+                case 'saturn-light':
                 case 'triton' :
                     break;
                 default:

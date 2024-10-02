@@ -26,7 +26,7 @@
 
         const isLocal = location.hostname=='localhost';
         const buildPath = isLocal ?'/build/production/KitchenSink' :'';
-        defaultTheme = 'saturn-dark';
+        defaultTheme = 'saturn-light';
 
         Ext.beforeLoad = function (tags) {
             var query = location.search.substring(1),
@@ -61,7 +61,7 @@
                 locale = params.locale;
 
             if (!profile) {
-                profile = 'saturn-dark';
+                profile = 'saturn-light';
 
             }
 

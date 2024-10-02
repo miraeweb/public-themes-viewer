@@ -39,6 +39,12 @@ Ext.define('KitchenSink.view.toolbar.Overflow', {
             topHeight: 100,
             bottomHeight: 100
         },
+        'saturn-light': {
+            width: 555,
+            height: 300,
+            topHeight: 200,
+            bottomHeight: 200
+        },
         'saturn-dark': {
             width: 555,
             height: 300,

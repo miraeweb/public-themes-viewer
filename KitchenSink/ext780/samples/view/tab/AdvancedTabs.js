@@ -57,6 +57,10 @@ Ext.define('KitchenSink.view.tab.AdvancedTabs', {
             width: 740,
             height: 400
         },
+        'saturn-light': {
+            width: 800,
+            height: 400,
+        },
         'saturn-dark': {
             width: 800,
             height: 400,
